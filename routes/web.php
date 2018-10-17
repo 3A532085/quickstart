@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Task;
+use Illuminate\Http\Request;
 
 //顯示我們所有任務的清單
 Route::get('/', function () {
